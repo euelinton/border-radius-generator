@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Generator</title>
+  </head>
+  <body>
+    <h1>BORDER RADIUS</h1>
+    <div class="borders-container">
+      <div class="border">
+        <span>
+          Border Top Left Radius
+        </span> 
+        <div>
+          <input type="range" name="border1" class="borders" id="border-top-left-radius">
+        </div>
+      </div>
+      <div class="border">
+        <span>
+          Border Top Right Radius 
+        </span>
+        <div>
+          <input type="range" name="border2" class="borders" id="border-top-right-radius"><br />
+        </div>
+      </div>
+      <div class="border">
+        <span>
+          Border Bottom Left Radius
+        </span>
+        <div>
+          <input type="range" name="border3" class="borders" id="border-bottom-left-radius"><br />
+        </div>
+      </div>
+      <div class="border">
+        <span>
+          Border Bottom Right Radius
+        </span>
+        <div>
+          <input type="range" name="border4" class="borders" id="border-bottom-right-radius"><br /><br />
+        </div>
+      </div>
+    </div>
+    <div class="preview">
+      <div class="preview-border">
+        <span>200px</span>
+      </div>
+      <div class="css">
+        <pre>div {</pre>
+        <div class="css-borders">
+          <code class="c-border-top-left-radius"></code>
+          <code class="c-border-top-right-radius"></code>
+          <code class="c-border-bottom-left-radius"></code>
+          <code class="c-border-bottom-right-radius"></code>
+        </div>
+        <pre>}</pre>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
